@@ -1,0 +1,22 @@
+--- Phase 1: Dataset Understanding ---
+Successfully loaded data from data\Exam_Score_Prediction.csv
+Shape: (20000, 13)
+
+--- Column Analysis ---
+                     Type  Missing  Missing %  Unique   Example
+student_id          int64        0        0.0   20000         1
+age                 int64        0        0.0       8        17
+gender             object        0        0.0       3      male
+course             object        0        0.0       7   diploma
+study_hours       float64        0        0.0     784      2.78
+class_attendance  float64        0        0.0     589      92.9
+internet_access    object        0        0.0       2       yes
+sleep_hours       float64        0        0.0      59       7.4
+sleep_quality      object        0        0.0       3      poor
+study_method       object        0        0.0       5  coaching
+facility_rating    object        0        0.0       3       low
+exam_difficulty    object        0        0.0       3      hard
+exam_score        float64        0        0.0     805      58.9
+
+--- Target Variable Detection ---
+Potential target columns detected: ['exam_score']

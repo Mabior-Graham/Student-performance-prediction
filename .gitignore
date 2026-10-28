@@ -1,0 +1,112 @@
+# ==================== PYTHON ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment variables (secrets, API keys, JWT secrets)
+.env
+.env.local
+.env.*.local
+*.env
+
+# ==================== DATABASE ====================
+# SQLite database — contains hashed passwords + real user data
+app/backend/app.db
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ==================== MODEL ARTIFACTS ====================
+# Trained model files — regenerate via training script
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.onnx
+
+# ==================== GENERATED DATA ====================
+# Processed training data — regenerate from raw CSV
+data/X_train_processed.csv
+data/y_train.csv
+data/X_test_processed.csv
+data/y_test.csv
+data/*_processed.*
+
+# ==================== NODE / NEXT.JS ====================
+node_modules/
+.next/
+out/
+.next-env.d.ts
+*.tsbuildinfo
+
+# ==================== BUILD OUTPUTS ====================
+dist/
+build/
+coverage/
+*.log
+
+# ==================== SCREENSHOTS ====================
+# Local screenshots for report — not part of source
+screenshots/
+*.png.orig
+
+# ==================== IDE / EDITOR ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ==================== OS ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ==================== LOGS ====================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==================== TEMPORARY ====================
+*.tmp
+*.temp
+.cache/
+.temp/

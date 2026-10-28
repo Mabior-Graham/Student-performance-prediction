@@ -1,0 +1,30 @@
+:root {
+    --bg-color: #ffffff;
+    --text-primary: #0f172a;
+}
+
+html.dark {
+    --bg-color: #0f172a;
+    --text-primary: #f8fafc;
+}
+
+html {
+    color-scheme: light;
+}
+
+html.dark {
+    color-scheme: dark;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-toggle,
+.theme-toggle * {
+  background: transparent !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
