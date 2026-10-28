@@ -298,14 +298,7 @@ This project was developed as an **undergraduate final year project** and should
 
 ---
 
-## Acknowledgements
 
-Developed as a Final Year Project in the **Department of Computer Science**, College of Computer Science and Information Technology, **University of Juba**.
-
-- **Supervisor:** *[Supervisor's Name]*
-- **Head of Department:** *Lodu B. JOHN KUYA*
-
----
 
 ## References
 
